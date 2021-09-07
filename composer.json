@@ -1,0 +1,35 @@
+{
+  "name": "gorgeri/botman-mix-file-driver",
+  "description": "Botman Custom Incoming Message for Attachment\n",
+  "type": "library",
+  "require": {
+    "php": ">=7.0",
+    "botman/botman": "~2.1"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Gorgeri\\Drivers\\Custom\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "keywords": [
+    "Bot",
+    "BotMan",
+    "mix",
+    "file"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Cheremisin",
+      "email": "gorgeri30@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
