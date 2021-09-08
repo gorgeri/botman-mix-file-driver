@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Conversation\Custom;
+namespace Gorgeri\Drivers\Custom\Attachments;
 
 use BotMan\BotMan\Messages\Attachments\Attachment;
 
